@@ -1,0 +1,5 @@
+# require_relative 'queries'
+GraphqlTestSchema = GraphQL::Schema.define do
+  mutation(Types::MutationType)
+  query(Types::QueryType)
+end
